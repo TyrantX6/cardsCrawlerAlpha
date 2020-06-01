@@ -7,6 +7,7 @@ export default class extends Character {
   #maxLife;
   #curLife;
   #weapon;
+  #affliction;
 
   constructor(el) {
     super();
@@ -14,6 +15,7 @@ export default class extends Character {
     this.#maxLife = null;
     this.#curLife = null;
     this.#weapon = null;
+    this.#affliction = null;
 
     this.init();
   }
@@ -39,6 +41,14 @@ export default class extends Character {
     this.#maxLife = life;
   }
 
+  set affliction(affliction) {
+    this.#affliction = affliction;
+  }
+
+  get affliction() {
+    return this.#affliction;
+  }
+
   // Method init
   init() {
     this.maxLife = 45 + 5 * this.characterLevel;
@@ -48,7 +58,8 @@ export default class extends Character {
       <div class="hero">
         <div class="hero__picture" data-hero-level="${this.characterLevel}">
           <img src="img/h-${this.imagePath}.jpg" alt="${this.characterName}">
-          <div class="hero__afflictions" data-hero-afflictions></div>
+          <div class="hero__afflictions" data-hero-afflictions>
+          </div>
         </div>
 
         <h2 class="hero__name">${this.characterName}</h2>
@@ -121,5 +132,24 @@ export default class extends Character {
     // TODO:
     // Find another solution to kill the function
     throw new Error("Stopping the function!");
+  }
+
+  renderAffliction() {
+    this.elAfflictions.innerHTML = ` 
+      <div class="hero__affliction" data-tippy-content="${this.affliction.hDescription}" style="background-image: url('img/a-${this.affliction.name}.png')"></div>
+    `;
+  }
+
+  addAffliction(affliction) {
+    this.affliction = affliction;
+
+    this.renderAffliction()
+  }
+
+
+  removeAffliction() {
+    this.elAfflictions.innerHTML = '';
+
+    this.affliction = null;
   }
 }

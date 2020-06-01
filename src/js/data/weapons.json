@@ -10,5 +10,11 @@
   {
     "name": "Bow",
     "description": "every use increase his damage by 1"
+  },
+  {
+    "name": "Excalibur",
+    "description": "You are lucky today. Every use increase his damage randomly between 1 and 3."
   }
+
+
 ]

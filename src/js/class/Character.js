@@ -1,11 +1,13 @@
 // Importation des données depuis un fichier statique
 import characters from '../data/characters.json';
 import { stringHandler } from '../helpers';
+import type from '../data/afflictions.json';
   
 // Création de la class Character
 export default class Character {
   // Privatisation de la propriété character
   #character;
+  #type;
 
   constructor() {
     // Class abstraite (Merci Samuel !) celle-ci ne peut pas être instanciée directement
@@ -16,9 +18,9 @@ export default class Character {
 
     // Affectation d'un personnage aléatoire à la propriété privée #character
     this.#character = characters[Math.floor(Math.random() * characters.length)];
+    this.#type = type[this.character.typeIndex];
   }
 
-  
   // Getter de la propriété privée #character
   // Va nous servir à alimenter les getter ci-après
   get character() {
@@ -41,5 +43,13 @@ export default class Character {
   // après : velkoz
   get imagePath() {
     return stringHandler.imagePath(this.characterName);
-  }  
+  }
+
+  get type() {
+    return this.#type;
+  }
+
+  get typeImagePath() {
+    return stringHandler.imagePath(this.type.name)
+  }
 }

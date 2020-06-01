@@ -1,8 +1,23 @@
 [
+
   {
     "type": 0,
+    "name": "Normal",
+    "eDescription": "A normal Enemy, nothing to worry about...",
+    "hDescription": "You are clean!"
+  },
+  {
+    "type": 1,
     "name": "Fire",
-    "eDescription": "This ennemy will set you in fire, you'll loose 1 point of life every new turn",
+    "eDescription": "This enemy will set you in fire, you'll loose 1 point of life every new turn",
     "hDescription": "You're in fire! You loose 1 life point every turn"
+  },
+  {
+    "type": 2,
+    "name": "Poison",
+    "eDescription": "This enemy will poison you, you'll loose 2 points of life every new turn",
+    "hDescription": "You're poisoned! You loose 2 life points every turn"
   }
+
+
 ]

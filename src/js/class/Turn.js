@@ -28,9 +28,11 @@ export default class Turn {
   }
 
   init() {
+    let realDamage = 0;
     switch (this.card.constructor) {
       case Item:
         this.hero.changeLife(this.card.itemHeal);
+        this.hero.removeAffliction();
         break;
       case Weapon:
         this.hero.changeWeapon(this.card);
@@ -38,10 +40,10 @@ export default class Turn {
       // Enemy
       default:
         let heroAttack = (this.hero.weapon !== null) ? this.hero.weapon.attack : 0,
-          potentialDamage = (this.card.attack * -1) + heroAttack,
-          realDamage = (potentialDamage < 0) ? potentialDamage : 0;
+          potentialDamage = (this.card.attack * -1) + heroAttack;
 
-        this.hero.changeLife(realDamage);
+        realDamage = (potentialDamage < 0) ? potentialDamage : 0;
+
 
         if (this.hero.weapon !== null) {
           switch (this.hero.weapon.weaponName) {
@@ -60,7 +62,13 @@ export default class Turn {
             case "Bow":
               this.hero.weapon.attack += 1;
               this.hero.renderWeapon();
-              break
+              break;
+
+            // SI J'AI EXCALIBUR
+            case "Excalibur":
+              this.hero.weapon.attack += Math.ceil(Math.random() * 3)
+              this.hero.renderWeapon();
+              break;
           }
         }
 
@@ -70,7 +78,23 @@ export default class Turn {
           new Modal(0);
         }
     }
+    if (this.hero.affliction !== null) {
+      switch (this.hero.affliction.name) {
+        case 'Fire':
+          realDamage--;
+          break;
+        case 'Poison':
+          realDamage -= 2;
+          break;
+        default:
+      }
+    }
 
+
+    this.hero.changeLife(realDamage);
+    if (this.card.type && this.card.type.type !== 0) {
+      this.hero.addAffliction(this.card.type);
+    }
     this.callback();
   }
 }

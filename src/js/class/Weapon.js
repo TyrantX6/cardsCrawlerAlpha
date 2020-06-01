@@ -11,7 +11,7 @@ export default class Weapon {
   constructor() {
     // Affectation d'une arme aléatoire à la propriété privée #weapon
     this.#weapon = weapons[Math.floor(Math.random() * weapons.length)];
-    this.#attack = Math.ceil(Math.random() * 9);
+    this.#attack = (this.#weapon.name === 'Excalibur') ? 3 : Math.ceil(Math.random() * 9);
   }
 
   get weapon() {

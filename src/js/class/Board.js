@@ -96,8 +96,8 @@ export default class {
     }
     else {
       if (cards[index + 1].getAttribute('data-type') === null) {
-        this.createCard(index + 1)
-      };
+        this.createCard(index + 1);
+      }
     }
   }
 }

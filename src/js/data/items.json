@@ -7,14 +7,14 @@
   },
   {
     "type": 0,
-    "heal": 3,
+    "heal": 7,
     "name": "Angel",
-    "description": "Heals you for 3 life points"
+    "description": "Heals you for 7 life points"
   },
   {
     "type": 0,
-    "heal": 4,
+    "heal": 9,
     "name": "Angel",
-    "description": "Heals you for 4 life points"
+    "description": "Heals you for 9 life points"
   }
 ]

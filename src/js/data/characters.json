@@ -2,261 +2,261 @@
   {
     "name": "Ahri",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Annie",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Ashe",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Aurelion Sol",
     "level": 5,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Blitzcrank",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Caitlyn",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Cho'Gath",
     "level": 4,
-    "typeIndex": null
+    "typeIndex": 2
   },
   {
     "name": "Darius",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Ekko",
     "level": 5,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Ezreal",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Fiora",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Fizz",
     "level": 4,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Gangplank",
     "level": 5,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Graves",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Irelia",
     "level": 4,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Jarvan IV",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Jayce",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Jhin",
     "level": 4,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Jinx",
     "level": 4,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Kai'Sa",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Karma",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Kassadin",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Kayle",
     "level": 4,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Kha'Zix",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Leona",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Lucian",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Lulu",
     "level": 5,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Lux",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Malphite",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Master Yi",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Miss Fortune",
     "level": 5,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Mordekaiser",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Neeko",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 2
   },
   {
     "name": "Poppy",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 2
   },
   {
     "name": "Rakan",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Rumble",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Shaco",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Shen",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Sona",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Soraka",
     "level": 4,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Syndra",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Thresh",
     "level": 5,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Twisted Fate",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Vel'Koz",
     "level": 4,
-    "typeIndex": null
+    "typeIndex": 2
   },
   {
     "name": "Vi",
     "level": 3,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Wukong",
     "level": 4,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Xayah",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 2
   },
   {
     "name": "Xerath",
     "level": 5,
-    "typeIndex": null
+    "typeIndex": 2
   },
   {
     "name": "Xin Zhao",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Yasuo",
     "level": 2,
-    "typeIndex": null
+    "typeIndex": 0
   },
   {
     "name": "Ziggs",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 1
   },
   {
     "name": "Zoe",
     "level": 1,
-    "typeIndex": null
+    "typeIndex": 0
   }
 ]
